@@ -16,6 +16,11 @@ Common
 ********
 */
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 /*
 ********
 Typography
@@ -40,6 +45,22 @@ h6 {
 Header
 ********
 */
+
+header {
+  text-align: center;
+  padding: 50px;
+  background-color: #8bd3dd;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #001858;
+}
+
+h1 + p {
+  font-size: 20px;
+  font-weight: bolder;
+}
 
 /*
 ********
