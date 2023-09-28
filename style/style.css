@@ -56,6 +56,7 @@ header {
   text-align: center;
   padding: 50px;
   background-color: #8bd3dd;
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -74,21 +75,41 @@ Main
 ********
 */
 
-.team {
-  /* background-color: yellow; */
-}
-
 .team > .col {
-  /* height: 100px; */
   width: calc(100% / 3 - 20px);
-  /* background-color: aqua;
-  border: 2px solid #001858; */
   float: left;
   padding: 20px;
-  background-color: #001858;
+  background-color: #8bd3dd;
   margin: 10px;
 }
 
-/* .box {
-  background-color: #001858;
-} */
+.team-face {
+  float: left;
+  width: 100px;
+  background-color: blue;
+}
+
+.team-info {
+  float: right;
+  width: calc(100% - 100px);
+  padding-left: 10px;
+}
+
+.team-face img {
+  width: 100%;
+  display: block;
+}
+
+.team-info h2 {
+  font-size: 17px;
+}
+
+.team-info a {
+  color: white;
+  text-decoration: none;
+}
+
+.team-info a:hover {
+  color: white;
+  text-decoration: none;
+}
