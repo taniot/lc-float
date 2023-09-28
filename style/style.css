@@ -21,6 +21,12 @@ Common
   margin: 0 auto;
 }
 
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
 /*
 ********
 Typography
@@ -67,3 +73,22 @@ h1 + p {
 Main
 ********
 */
+
+.team {
+  /* background-color: yellow; */
+}
+
+.team > .col {
+  /* height: 100px; */
+  width: calc(100% / 3 - 20px);
+  /* background-color: aqua;
+  border: 2px solid #001858; */
+  float: left;
+  padding: 20px;
+  background-color: #001858;
+  margin: 10px;
+}
+
+/* .box {
+  background-color: #001858;
+} */
